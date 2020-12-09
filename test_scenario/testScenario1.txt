@@ -1,0 +1,10 @@
+setL1arrivalDist Test uniform 40,50
+setL2arrivalDist Test uniform 30,40
+setL3arrivalDist Test uniform 20,30
+setL4arrivalDist Test uniform 10,20
+setL5arrivalDist Test determinist 10
+addRadioService Test uniform 10,20
+addBloodTest Test uniform 15,90
+addMRI Test uniform 30,70
+auto Test 500
+stop
